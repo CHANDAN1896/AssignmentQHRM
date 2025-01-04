@@ -1,0 +1,57 @@
+﻿@model IEnumerable<QHRMTest.Models.QHRMProducts>
+
+<!Doctype>
+<html>
+    <head>
+        <title>Products</title>
+    </head>
+    <body>
+        <div class="container mt-4">
+    <h1 class="mb-4">Product List</h1>
+    <a href="/QHRMProducts/Add" class="btn btn-primary mb-3">Add Product</a>
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>SN</th>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Created</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                int sn = 1;
+                foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@sn</td>
+                        <td>@product.Name</td>
+                        <td>@product.Description</td>
+                        <td>@product.Price.ToString("C")</td>
+                        <td>@product.Created.ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        <td>
+                            <a href="/QHRMProducts/Details/@product.Id" class="btn btn-info btn-sm">🔍</a>
+                            <a href="/QHRMProducts/Edit/@product.Id" class="btn btn-primary btn-sm">✎</a>
+                            <a href="/QHRMProducts/Delete/@product.Id" class="btn btn-danger btn-sm">✖</a>
+                        </td>
+                    </tr>
+                    sn++;
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center">No products available</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+    </body>
+</html>
+
+

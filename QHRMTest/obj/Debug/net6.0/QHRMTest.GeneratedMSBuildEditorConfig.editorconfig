@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QHRMTest
+build_property.RootNamespace = QHRMTest
+build_property.ProjectDir = D:\chandan\QHRMTest\QHRMTest\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\chandan\QHRMTest\QHRMTest
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/QHRMProducts/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUhSTVByb2R1Y3RzXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/QHRMProducts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUhSTVByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/QHRMProducts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUhSTVByb2R1Y3RzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/QHRMProducts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUhSTVByb2R1Y3RzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/QHRMProducts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUUhSTVByb2R1Y3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/chandan/QHRMTest/QHRMTest/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-28ctqrf2mz

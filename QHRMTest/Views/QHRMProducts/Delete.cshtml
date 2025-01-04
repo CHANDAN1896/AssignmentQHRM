@@ -1,0 +1,22 @@
+﻿
+<!Doctype>
+<html>
+<head>
+    <title>Delete Product</title>
+</head>
+<body>
+    <h1>Delete Product</h1>
+    <p>Are you sure you want to delete the following product?</p>
+    <ul>
+        <li><strong>Name:</strong> @Model.Name</li>
+        <li><strong>Description:</strong> @Model.Description</li>
+        <li><strong>Price:</strong> @Model.Price.ToString("C")</li>
+    </ul>
+    <form method="post">
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a href="/QHRMProducts" class="btn btn-secondary">Cancel</a>
+    </form>
+
+</body>
+</html>
+
